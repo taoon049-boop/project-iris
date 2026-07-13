@@ -99,3 +99,34 @@ showScreen(ending);
 typeEnding();
 
 });
+const finalMessage=`If one day I forget everything...
+
+I hope...
+
+the first thing I remember...
+
+is your eyes.`;
+
+let i=0;
+
+function typeEnding(){
+
+endingText.innerHTML="";
+
+i=0;
+
+const timer=setInterval(()=>{
+
+endingText.innerHTML+=finalMessage.charAt(i);
+
+i++;
+
+if(i>=finalMessage.length){
+
+clearInterval(timer);
+
+}
+
+},45);
+
+}
