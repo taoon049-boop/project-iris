@@ -130,3 +130,13 @@ clearInterval(timer);
 },45);
 
 }
+audio.addEventListener("ended", () => {
+    showScreen(ending);
+
+    endingText.innerHTML =
+`Memory Restored
+
+Welcome Back
+
+IRIS ONLINE`;
+});
