@@ -106,3 +106,63 @@ height:8px;
 background:#222;
 
 border-radius:50px;
+.center-box{
+max-width:600px;
+}
+
+.center-box h1{
+font-size:32px;
+letter-spacing:6px;
+margin-bottom:20px;
+}
+
+.center-box h2{
+font-size:60px;
+margin-bottom:30px;
+font-weight:700;
+}
+
+.center-box p{
+font-size:18px;
+line-height:1.8;
+color:#bfbfbf;
+margin-bottom:40px;
+}
+
+button{
+padding:16px 42px;
+background:transparent;
+border:1px solid #fff;
+color:#fff;
+font-size:16px;
+letter-spacing:3px;
+cursor:pointer;
+transition:.35s;
+}
+
+button:hover{
+background:#fff;
+color:#000;
+}
+
+.eyes-container{
+position:relative;
+width:90%;
+max-width:650px;
+}
+
+#eyeImage{
+width:100%;
+display:block;
+border-radius:12px;
+}
+
+.eye-glow{
+position:absolute;
+inset:0;
+pointer-events:none;
+background:radial-gradient(circle at center,
+rgba(255,255,255,.22),
+transparent 60%);
+opacity:.8;
+}
