@@ -239,3 +239,44 @@ font-size:18px;
 color:#9d9d9d;
 
 }
+@media (max-width:768px){
+
+.boot-logo{
+
+font-size:26px;
+
+}
+
+.center-box h1{
+
+font-size:24px;
+
+}
+
+.center-box h2{
+
+font-size:42px;
+
+}
+
+#endingText{
+
+font-size:24px;
+
+}
+
+button{
+
+width:100%;
+
+max-width:300px;
+
+}
+
+}
+
+.hidden{
+
+display:none !important;
+
+}
