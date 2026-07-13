@@ -166,3 +166,76 @@ rgba(255,255,255,.22),
 transparent 60%);
 opacity:.8;
 }
+.scan-box{
+
+max-width:520px;
+
+}
+
+.scan-box h2{
+
+font-size:30px;
+
+letter-spacing:4px;
+
+margin-bottom:30px;
+
+}
+
+.scan-box p{
+
+font-size:18px;
+
+margin:14px 0;
+
+color:#cfcfcf;
+
+}
+
+.voice-box{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.voice-box audio{
+
+width:100%;
+
+max-width:420px;
+
+}
+
+.ending-box{
+
+max-width:700px;
+
+}
+
+#endingText{
+
+font-size:34px;
+
+line-height:1.8;
+
+font-weight:300;
+
+white-space:pre-line;
+
+margin-bottom:50px;
+
+}
+
+.ending-box p{
+
+letter-spacing:6px;
+
+font-size:18px;
+
+color:#9d9d9d;
+
+}
